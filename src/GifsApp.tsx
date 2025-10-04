@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { GifList } from "./gifs/components/GifList"
 import { PreviousSearches } from "./gifs/components/PreviousSearches"
-import { mockGifs } from "./mock-data/gifs.mock"
 import { CustomHeader } from "./shared/components/CustomHeader"
 import { SearchBar } from "./shared/components/SearchBar"
 import { getGifsByQuery } from "./gifs/actions/get-gifs-by-query.action"
