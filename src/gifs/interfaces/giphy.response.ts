@@ -100,19 +100,12 @@ export interface Looping {
   mp4:      string;
 }
 
-export enum Rating {
-  G = "g",
-  PG = "pg",
-}
+export type Rating = 'G' |  'PG';
 
-export enum SourceTLD {
-  Empty = "",
-  WWWTwitchTv = "www.twitch.tv",
-}
+export type SourceTLD = "" |"www.twitch.tv" ;
 
-export enum Type {
-  GIF = "gif",
-}
+
+export type Type = "gif"; 
 
 export interface User {
   avatar_url:    string;
